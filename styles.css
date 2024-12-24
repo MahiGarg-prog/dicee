@@ -1,0 +1,78 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+justify-content: center;
+align-items: center;
+
+}
+
+body {
+  background-color: #393E46;
+
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}.btn{
+  width: 7rem;
+  height: 5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: #393E46;
+}
+#record{
+
+ justify-content: space-evenly;
+
+}
+.column {
+ 
+  width: 50%;
+
+}
+
+/* Clear floats after the columns */
+#row {
+  width: 25%;
+  top:25%;
+  right:2%;
+  display: flex;
+  text-align: center;
+ color:black;
+ position:absolute;
+}
+#row p{
+  color: black;
+}
+.total{
+ width: 25%;
+ float:center;
+}
